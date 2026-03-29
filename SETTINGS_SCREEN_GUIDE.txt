@@ -1,0 +1,182 @@
+╔═════════════════════════════════════════════════════════════════════════════╗
+║              HOW TO ADD CLAUDE API KEY - VISUAL GUIDE                        ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+
+
+STEP 1: OPEN SETTINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You'll see the HOME SCREEN:
+
+┌─────────────────────────────────────────────────────┐
+│ ←  Priya          ⚙️  Daily Chat                    │  ← Click here for Settings
+│    🦊 AI English Mentor                             │
+│    ────────────────────────────────────────────────│
+│    Welcome back, Priya! 🎉                          │
+│    Let's have a great conversation!                 │
+│    ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─   │
+│    Stats:  🔥 5  📊 124 words                       │
+├─────────────────────────────────────────────────────┤
+│  [🏠] [📊] [💬]  [🏅] [⚙️] SETTINGS               │
+└─────────────────────────────────────────────────────┘
+
+
+STEP 2: SETTINGS SCREEN OPENS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You'll see:
+
+┌─────────────────────────────────────────────────────┐
+│ Settings ⚙️                                          │
+├─────────────────────────────────────────────────────┤
+│                                                      │
+│  👧  Profile                                        │
+│  ───────────────────────────────────────────────    │
+│  [🦊]                                               │
+│      Priya (Age: 6, Class 1)                        │
+│      Level 1 — Beginner                             │
+│      ⚡ Smart Mode (local)  ← Shows current status  │
+│                                                      │
+├─────────────────────────────────────────────────────┤
+│  Claude AI — Better Conversations                   │ ← SCROLL DOWN
+│  ───────────────────────────────────────────────    │   TO HERE
+│  [Description text about Claude AI...]              │
+│                                                      │
+│  API Key (starts with sk-ant-)                      │
+│  ┌──────────────────────────────────────────┐       │
+│  │ sk-ant-api03-[PASTE HERE]                │ ← Input field
+│  └──────────────────────────────────────────┘       │
+│                                                      │
+│  [SAVE KEY]  [TEST]  [REMOVE]                      │ ← Buttons
+│                                                      │
+├─────────────────────────────────────────────────────┤
+│  Other Settings                                      │
+│  Clear All Data                                      │
+└─────────────────────────────────────────────────────┘
+
+
+STEP 3: PASTE YOUR API KEY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Find the input field "API Key (starts with sk-ant-)"
+
+2. Click in the field:
+   ┌──────────────────────────────────────────┐
+   │ sk-ant-api03-[CURSOR HERE]               │ ← Click here
+   └──────────────────────────────────────────┘
+
+3. Paste your API key (Ctrl+V or Cmd+V):
+   ┌──────────────────────────────────────────┐
+   │ sk-ant-api03-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx│
+   └──────────────────────────────────────────┘
+
+
+STEP 4: SAVE THE KEY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Look for three buttons below the input field:
+
+┌─────────────────────────────────────────────────────┐
+│ [SAVE KEY]  [TEST]  [REMOVE]                        │
+│    ↑                                                 │
+│    Click "SAVE KEY"                                 │
+└─────────────────────────────────────────────────────┘
+
+When you click "SAVE KEY":
+  ✨ You should see: "Claude AI key saved!"
+  The input field will clear
+
+
+STEP 5: TEST THE CONNECTION (OPTIONAL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Click "TEST" button
+2. Wait 2-3 seconds...
+3. You should see: 🎉 "Claude AI connected!"
+
+If you see error:
+   ❌ Check API key format
+   ❌ Verify internet connection
+   ❌ Go to console.anthropic.com/account/overview
+
+
+STEP 6: VERIFY STATUS CHANGED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Go back to HOME SCREEN (tap home icon or back arrow):
+
+┌─────────────────────────────────────────────────────┐
+│ ←  Priya          ✅ Claude AI Active               │
+│    🦊 AI English Mentor                             │
+│                                                      │
+│    Changed from: ⚡ Smart Mode                       │
+│    To: ✅ Claude AI Active  ← YOU DID IT! ✨       │
+│                                                      │
+│    Welcome back, Priya! 🎉                          │
+│    Let's have a great conversation!                 │
+└─────────────────────────────────────────────────────┘
+
+
+NOW START CHATTING!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Click the 💬 CHAT button to start a conversation.
+
+Claude AI will now power all responses:
+  ✅ Natural follow-ups
+  ✅ Contextual questions
+  ✅ Smart error correction
+  ✅ Specific praise
+  ✅ Topic continuity
+
+
+TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Error: "Invalid key — should start with sk-ant-"
+────────────────────────────────────────────────────
+❌ WRONG: "sk-ant-api03-[INCOMPLETE]" (cut off)
+❌ WRONG: " sk-ant-..." (space before)
+❌ WRONG: "sk-ant-...xyz " (space after)
+
+✅ RIGHT: "sk-ant-api03-xxxxxxxxxxxxxxxxxxxxx" (complete, no spaces)
+
+Action:
+  1. Go to https://console.anthropic.com/account/keys
+  2. Copy the key COMPLETELY (no extra spaces)
+  3. Paste into settings again
+  4. Click SAVE KEY
+
+
+Error: "Failed: HTTP 401" or "Failed to connect"
+────────────────────────────────────────────────────
+Reasons:
+  ❌ API key is invalid/revoked
+  ❌ No internet connection
+  ❌ API account has no credits
+
+Actions:
+  1. Go to https://console.anthropic.com/account/overview
+  2. Check if account is active
+  3. Verify you have API credits remaining
+  4. If no credits, add payment method
+  5. Try test connection again
+
+
+Error: Still shows "⚡ Smart Mode" after saving
+────────────────────────────────────────────────────
+Actions:
+  1. Refresh browser: F5
+  2. Clear cache: Ctrl+Shift+Delete
+  3. Close and reopen the app
+  4. Try saving the key again
+  5. Check in Settings again
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+THAT'S IT! YOU'RE DONE! 🎉
+
+Your app now uses Claude AI for better conversations.
+
+Enjoy! 📚✨

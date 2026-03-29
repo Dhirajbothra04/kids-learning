@@ -1,0 +1,101 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                 CLAUDE AI SETUP - 5 MINUTE QUICK START                      ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+STEP 1: GET YOUR API KEY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Go to: https://console.anthropic.com/account/keys
+  2. Sign in (or create free Anthropic account)
+  3. Click "Create Key"
+  4. Copy the key (starts with sk-ant-)
+
+  ⚠️  Keep it secret! Don't share this key!
+
+
+STEP 2: OPEN SETTINGS IN APP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Open Kids Learning app
+  2. Tap ⚙️ Settings (top right)
+  3. Scroll down to "Claude AI — Better Conversations"
+
+
+STEP 3: PASTE API KEY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Input Field: "API Key (starts with sk-ant-)"
+  └─ Paste your key here
+
+
+STEP 4: SAVE KEY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Click "Save Key" button
+
+  ✨ You should see: "Claude AI key saved!"
+
+
+STEP 5: TEST (OPTIONAL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Click "Test" button
+
+  🎉 Success: "Claude AI connected!"
+  ❌ If error: Check API key is correct, re-read from console.anthropic.com
+
+
+STEP 6: START CHATTING!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Go to home screen
+  2. Check: Badge should show "✅ Claude AI Active" (not ⚡ Smart)
+  3. Click 💬 Chat button
+  4. Start conversation
+
+
+YOU'LL NOW GET:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ Real-time contextual conversations
+  ✅ Natural follow-ups (not template-based)
+  ✅ Smart grammar correction (via modeling)
+  ✅ Specific praise (references what they said)
+  ✅ Topic continuity (3-6 turns on same topic)
+  ✅ Adaptive difficulty (adjusts to child's level)
+
+
+TROUBLESHOOTING:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ❌ "Invalid key"
+     → Copy key again from console.anthropic.com
+     → Check for spaces or extra characters
+
+  ❌ "Failed to connect"
+     → Check internet connection
+     → Go to console.anthropic.com/account/overview
+     → Verify you have API credits remaining
+
+  ❌ Still shows "⚡ Smart Mode"
+     → Refresh browser (F5)
+     → Clear cache (Ctrl+Shift+Delete)
+     → Try saving key again
+
+
+COSTS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Typical: $0.01-0.02 per conversation turn
+  Monitor at: https://console.anthropic.com/account/overview
+
+
+HELP:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  See: CLAUDE_API_SETUP_GUIDE.md (comprehensive guide)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+That's it! Enjoy better conversations! 🎉
