@@ -402,5 +402,15 @@
 <script src="js/claude-ai.js"></script>
 <script src="js/speech.js"></script>
 <script src="js/app.js"></script>
+<script>
+  // Initialize the app when DOM is ready
+  document.addEventListener('DOMContentLoaded', () => App.init());
+  // Also call immediately in case DOM is already loaded
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => App.init());
+  } else {
+    App.init();
+  }
+</script>
 </body>
 </html>
