@@ -59,35 +59,53 @@ const App = {
   },
 
   // ─── Screen Navigation ────────────────────────────────────────────────────
-  showScreen(screenId) {
-    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-    const target = document.getElementById(screenId);
-    if (target) {
-      target.classList.add('active');
-      // Reset scroll position completely
-      window.scrollTo(0, 0);
-      target.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-      document.body.scrollTop = 0;
-    }
-    this.currentScreen = screenId;
+showScreen(screenId) {
 
-    const navScreens = ['home-screen','progress-screen','dashboard-screen','settings-screen','badges-screen'];
-    const nav = document.getElementById('bottom-nav');
-    if (nav) nav.style.display = navScreens.includes(screenId) ? 'flex' : 'none';
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
 
-    document.querySelectorAll('.nav-item').forEach(item =>
-      item.classList.toggle('active', item.dataset.screen === screenId)
-    );
+  const target = document.getElementById(screenId);
+
+  if (target) {
+    target.classList.add('active');
+
+    window.scrollTo(0,0);
+    target.scrollTop = 0;
+  }
+
+  this.currentScreen = screenId;
+
+  const navScreens = [
+    'home-screen',
+    'progress-screen',
+    'dashboard-screen',
+    'settings-screen',
+    'badges-screen'
+  ];
+
+  const nav = document.getElementById('bottom-nav');
+  if (nav) nav.style.display = navScreens.includes(screenId) ? 'flex' : 'none';
+
+  document.querySelectorAll('.nav-item').forEach(item =>
+    item.classList.toggle('active', item.dataset.screen === screenId)
+  );
+
+  try {
 
     ({
-      'home-screen':      () => this.setupHome(),
-      'progress-screen':  () => this.setupProgress(),
+      'home-screen': () => this.setupHome(),
+      'progress-screen': () => this.setupProgress(),
       'dashboard-screen': () => this.setupDashboard(),
-      'settings-screen':  () => this.setupSettings(),
-      'badges-screen':    () => this.setupBadges(),
+      'settings-screen': () => this.setupSettings(),
+      'badges-screen': () => this.setupBadges(),
     })[screenId]?.();
-  },
+
+  } catch (err) {
+
+    console.error("Screen setup error:", err);
+
+  }
+
+},
 
   navigate(btn) { if (btn.dataset.screen) this.showScreen(btn.dataset.screen); },
 
